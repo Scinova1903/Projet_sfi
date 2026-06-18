@@ -1,18 +1,95 @@
-
-
-a{
+a {
     color: #00ffff;
 }
-h1{
+
+h1 {
     font-size: 100px;
 }
-h2{
+
+h2 {
     font-size: 60px;
 }
-h3{
+
+body.lineaire-simple {
+    background: linear-gradient(blue, purple, red, orange);
+    color: #c5e3d7;
+}
+
+
+#Section-principal {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#sous-titre-1 {
+    display: flex;
+    justify-content: center;
+    animation: forwards 10;
+}
+
+#sous-titre-2{
+    display: flex;
+    justify-content: center;
+}
+
+#Section-Lycee{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#Section-Lycee p{
+    text-align: center;
+}
+
+.Texte-1{
     font-size: 20px;
 }
-body.lineaire-simple {
-  background: linear-gradient(red, red,purple);
-  color: #c5e3d7;
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+#Section-SFI{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+
+    gap: 20 px;
+    max-width: 100vw;
+    justify-content: center;
+}
+
+#Section-SFI p{
+    text-align: center;
+}
+
+.ceci-est-une-icone{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    transition: transform 0.3s ease;
+    transform-origin: bottom;
+}
+
+.ceci-est-une-icone:hover{
+    transform: translateY(-10px) scale(0.75);
+}
+
+.Icone-cliquable{
+    transition: transform 0.5s ease;
+}
+
+.Icone-cliquable:hover{
+    transform: translateY(-10px) scale(1.25);
+}
+
+a{
+    transition: color 1s ease;
+}
+
+a:hover{
+    color: #277DF5;
+}
+
