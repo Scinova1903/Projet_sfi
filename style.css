@@ -13,6 +13,6 @@ h3{
     font-size: 20px;
 }
 body.lineaire-simple {
-  background: linear-gradient(orange, red,purple);
+  background: linear-gradient(red, red,purple);
   color: #c5e3d7;
 }
