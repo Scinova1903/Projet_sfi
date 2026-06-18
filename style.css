@@ -1,0 +1,18 @@
+
+
+a{
+    color: #00ffff;
+}
+h1{
+    font-size: 100px;
+}
+h2{
+    font-size: 60px;
+}
+h3{
+    font-size: 20px;
+}
+body.lineaire-simple {
+  background: linear-gradient(orange, red,purple);
+  color: #c5e3d7;
+}
