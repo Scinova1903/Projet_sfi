@@ -18,3 +18,23 @@ aside{
     min-height: 100dvh;
 }
 
+.miam_miam{
+    position: absolute;
+    transform: translateY(-50%);
+    transition: all linear;
+    transition-duration: 2s ;
+    z-index: 2;
+}
+
+.miam_miam:hover{
+    transform: scale(2);
+}
+
+#poisson_move {
+    animation: gauche_droite 5s linear infinite;
+}
+
+@keyframes gauche_droite {
+    0% {transform: rotateY(180);}
+    50% {transform: translateX(500px);}
+}
